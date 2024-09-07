@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "efficient-ml"
+version = "0.1.0"
+description = "library to demonstrate cuda, triton and torch kernels for machine learning"
+authors = ["debashishc"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+tensorrt = "^10.4.0"
+triton = "^3.0.0"
+torch = "^2.4.1"
+torchvision = "^0.19.1"
+torchaudio = "^2.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

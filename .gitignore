@@ -1,0 +1,105 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.dll
+*.a
+*.o
+*.lib
+*.dylib
+
+# C extensions
+*.so
+*.dylib
+*.dll
+*.a
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+env/
+
+# PyTorch distributed tensor checkpoints
+*.pt
+*.pth
+
+# Triton CUDA compilation artifacts
+*.ll
+*.bc
+*.cubin
+*.ptx
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon\r
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# KDE directory preferences
+.directory
+
+# Temporary files created by editors and OS
+*~
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Temporary files and backup files
+*.bak
+*.tmp
+*.temp
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# MyPy type check
+.mypy_cache/

@@ -13,3 +13,6 @@ if __name__ == "__main__":
     # or using torch.randn
     x = torch.randn((25, 25), device="cuda")
     print(compile_square(x))
+
+# to generate output as Triton kernel use:
+# TORCH_LOGS="output_code" python3 compile_square.py 

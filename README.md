@@ -36,7 +36,7 @@ Detailed usage instructions, examples, and integration guides will be provided a
 Contributions are welcome! As this project is still under development, your ideas, suggestions, and optimizations are vital. If you have thoughts on kernel functions or performance improvements, feel free to contribute:
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/your-feature`)
+2. Create your feature branch (`git checkout -b feature/your-feature`), better yet use my [`.gitmessage`](https://gist.github.com/debashishc/2c9525de5b9f2226ee584c4b16778d2c)
 3. Commit your changes (`git commit -m 'Add new feature'`)
 4. Push to the branch (`git push origin feature/your-feature`)
 5. Open a pull request
@@ -54,10 +54,10 @@ Make sure your code follows the project’s style guidelines and is well-documen
 
 Special thanks to the following projects and their communities, whose work has been instrumental in the development of **Kernelheim**:
 
-- **[CUDA MODE](https://github.com/cuda-mode)**: (add discord)
-- **[Triton](https://github.com/triton-lang/triton)**: 
-- **[LLM.c](https://github.com/karpathy/llm.c)**:
-- **[PMPP book](https://www.amazon.com.au/Programming-Massively-Parallel-Processors-Hands/)
+- **[CUDA MODE](https://github.com/cuda-mode)**:
+- **[Triton](https://github.com/triton-lang/triton)** 
+- **[LLM.c](https://github.com/karpathy/llm.c)**
+- **[PMPP book](https://www.amazon.com.au/Programming-Massively-Parallel-Processors-Hands/)**
   
 We deeply appreciate the contributions of these projects to the open-source community.
 
